@@ -1,3 +1,43 @@
-#heading{
-    color: brown;
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid burlywood
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.navbar>ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar>ul>li{
+    font-size: 19px;
+    margin: 10px;
+    padding: 10px;
+}
+.search{
+    margin: 10px;
+}
+.search-container{
+margin: 20px;
+}
+
+.card{
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 200px;
+    background-color: #f0f0f0;
+}
+.card:hover{
+    border: 1px solid brown;
+}
+.card-img{
+    height: 250px;
+    width: 200px;
+}
+.card-div{
+    display: flex;
+    flex-wrap: wrap;
 }
