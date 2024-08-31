@@ -20,7 +20,9 @@
     margin: 10px;
 }
 .search-container{
-margin: 20px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .card{
@@ -38,6 +40,8 @@ margin: 20px;
     width: 200px;
 }
 .card-div{
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
 }
