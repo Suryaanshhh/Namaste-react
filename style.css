@@ -28,7 +28,7 @@
 .card{
     margin: 10px;
     padding: 10px;
-    height: 300px;
+    height: 350px;
     width: 200px;
     background-color: #f0f0f0;
 }
@@ -44,4 +44,12 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+}
+.filter-btn{
+    margin: 5px;
+    padding: 5px;
+}
+.Filter{
+    margin: 5px;
+    padding: 5px;
 }
