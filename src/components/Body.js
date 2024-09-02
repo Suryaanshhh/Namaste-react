@@ -1,5 +1,6 @@
 import Card from "./Card";
 import { useState, useEffect } from "react";
+import Shimmer from "./Shimmer";
 
 const Body = () => {
   const [resname, setResName] = useState([]);
@@ -14,8 +15,13 @@ const Body = () => {
     );
     const json=await data.json();
     //console.log(json.data.cards[1].card.card.gridElements.infoWithStyle.restaurants);
-    setResName(json.data.cards[1].card.card.gridElements.infoWithStyle.restaurants)
+    setResName(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
   };
+
+if(resname.length===0){
+ return <Shimmer/>
+}
+
 
   return (
     <div className="body">
