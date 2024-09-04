@@ -53,6 +53,7 @@
 .Filter{
     margin: 5px;
     padding: 5px;
+    display: flex;
 }
 
 .shimmer-cards{
